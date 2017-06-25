@@ -1,4 +1,4 @@
-FROM arm32v7/debian-slim
+FROM arm32v7:debian-slim
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
