@@ -12,7 +12,7 @@ Raspberry Pi向けの.NET CoreのランタイムのDockerfile置き場。
 
 ## 備考
 
-arm32向けのSDKが公開されていないため、ランタイムのみ置いている。
+[arm32向けのSDKが公開されていない](https://github.com/dotnet/cli#installers-and-binaries)ため、ランタイムのみ置いている。
 SDKがないため、DLLの作成は別PCなどで行う必要があることに注意(dotnet restoreできない)。
 
 
