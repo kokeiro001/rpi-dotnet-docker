@@ -1,4 +1,4 @@
-FROM armhf/debian:jessie
+FROM resin/armv7hf-debian
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
